@@ -1,9 +1,9 @@
 
-all: build
+all: run
 
 GO=go
 
-run:
+run: build
 	@./bin/run
 
 build:
